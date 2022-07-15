@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro-component-with-sign-up</title>
+
+    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <main class="site-main">
+        <section>
+            <div class="container">
+                <div class="main-box">
+                    <div class="infobox">
+                        <h2 class="main-text">
+                            Learn to code by watching others
+                        </h2>
+                        <p class="main-description">
+                            See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. 
+                        </p>
+                    </div>
+                    <div class="claim-box">
+                        <a href="" class="link">
+                            <strong class="link-minibox">Try it free 7 days</strong>
+                            then $20/mo. thereafter
+                        </a>
+                        <div class="input-box">
+                            <form action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+                                <label class="user-form">
+                                    <input class="input-zone input-box-firstname" type="text" name="user_first_name" id="user_first_name" minlength="2"
+                                    maxlength="1000000" aria-label="Enter your name" required placeholder="First Name">
+                                    <span class="input-invalid-text" aria-hidden="true">First Name cannot be empty</span>
+                                </label>
+
+                                <label class="user-form">
+                                    <input class="input-zone input-box-lastname" type="text" name="user_last_name" id="user_last_name" minlength="2"
+                                    maxlength="1000000" aria-label="Enter your name" required placeholder="Last Name">
+                                    <span class="input-invalid-text" aria-hidden="true">Last Name cannot be empty</span>
+                                </label>
+                                <label class="user-form">
+                                    <input class="input-zone input-box-email" type="email" name="user_email" id="user_email"
+                                    aria-label="Enter your email" required placeholder="Email Address">
+                                    <span class="input-invalid-text" aria-hidden="true">Looks like this is not an email</span>
+                                </label>
+                                
+                                <label class="user-form">
+                                    <input class="input-zone input-box-password" type="password" name="user_password" id="user_password" minlength="2"
+                                    maxlength="1000000" aria-label="Enter your password" required placeholder="Password">
+                                    <span class="input-invalid-text" aria-hidden="true">Password cannot be empty</span>
+                                </label>
+                                
+    
+                                <button class="input-box-button" type="submit">
+                                    CLAIM YOUR FREE TRIAL
+                                </button>
+                            </form>
+                            <p class="input-box-description">
+                                By clicking the button, you are agreeing to our 
+                                <a class="input-box-description-link" href="#">Terms and Services</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
